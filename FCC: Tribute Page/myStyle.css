@@ -1,0 +1,72 @@
+:root {
+  --textColor: #056161;
+}
+html {
+    margin: 0px;
+}
+#main {
+    margin: 10px 5px 10px 5px;
+    background-color: hsl(180, 90%, 52%);
+}
+h1 {
+    text-align: center;
+    color: var(--textColor);
+}
+h3 {
+    text-align: center;
+    color: var(--textColor);
+}
+#img-div {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#image {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+#img-caption {
+    text-align: center;
+    color: var(--textColor);
+}
+ul {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+ul > li {
+    color: var(--textColor);
+}
+
+blockquote {
+    text-align: center;
+    color: var(--textColor);
+}
+
+footer > p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--textColor);
+}
+
+footer > p > a:link {
+  text-decoration: none;
+}
+
+footer > p > a:visited {
+  text-decoration: none;
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
+
+footer > p > a:active {
+  text-decoration: underline;
+}
