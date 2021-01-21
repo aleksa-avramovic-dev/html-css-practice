@@ -1,0 +1,46 @@
+:root {
+    --textColor: white;
+}
+*{
+    box-sizing: border-box;
+}
+html {
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: #cccccc;
+}
+header {
+    text-align: center;
+    color: var(--textColor);
+}
+main {
+    background-color: hsl(278, 59%, 30%);
+    opacity: 0.9;
+    margin: auto;
+    width: 500px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+}
+label, p {
+    color: var(--textColor);
+}
+#name, #email, #number{
+    width: 100%;
+    height: 40px;
+    margin: none;
+
+}
+#submit {
+    background-color: green;
+    border-color: green;
+    width: 100%;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+}
+#submit:hover {
+    background-color: greenyellow;
+}
+
+#aditionalComment {
+    width: 100%;
+}

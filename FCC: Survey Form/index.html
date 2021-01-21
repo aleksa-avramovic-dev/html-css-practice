@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rocket sience</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aleksa Avramovic">
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Explore the milky way!</h1>
+        <p id="description">Fly around the galaxys with rockets</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <label id="name-label">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name!"><br>
+            <label id="email-label">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email!" required><br>
+            <label id="number-label">Age</label><br>
+            <input type="number" id="number" name="age" min="18" max="65" placeholder="Enter your age!" required><br>
+            <p>Gender</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+            <label for="planets">Choose a planet:</label>
+            
+            <select name="planets" id="planets">
+                <option value="mars">Mars</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="saturn">Saturn</option>
+                <option value="uranus">Uranus</option>
+            </select><br><br>
+
+            <p>Prefered rockets</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="falconHeavy">
+            <label for="vehicle1"> Falcon Heavy</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="deltaIVHeavy">
+            <label for="vehicle2"> Delta IV Heavy</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="spaceShuttle">
+            <label for="vehicle3"> Space Shuttle</label><br><br>
+
+            <label for="aditionalComment">Comments:</label><br>
+            
+            <textarea id="aditionalComment" name="aditionalComment" rows="4" cols="50">
+            Leave aditional comments here!
+            </textarea><br>
+
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
