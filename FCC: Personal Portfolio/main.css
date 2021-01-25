@@ -1,0 +1,31 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: red;
+    position: fixed;
+    height: 45px;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav ul {
+    float: right;
+    padding-right: 10px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+#welcome-section {
+    margin-top: 45px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
