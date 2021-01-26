@@ -1,6 +1,7 @@
-html {
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 nav {
     background-color: red;
@@ -25,7 +26,58 @@ nav li a {
 }
 #welcome-section {
     margin-top: 45px;
+    height: calc(100vh - 45px);
     text-align: center;
     background-color: black;
     color: white;
+}
+h1 {
+    padding-top: 7em;
+}
+#projects {
+    background-color: blue;
+}
+#projects h4 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 40px;
+}
+#project-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.project {
+    width: calc(100%/3 - 3px);
+    text-align: center;
+    background-color: grey;
+    border-radius: 30px;
+    padding-top: 30px;
+    margin-left: 1px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+}
+.project img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project a{
+    color: black;
+    text-decoration: none;
+}
+
+#contact {
+    background: black;
+    text-align: center;
+    color: white;
+    height: calc(100vh - 45px);
+}
+#contact ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+h2 {
+    margin: 0;
 }
