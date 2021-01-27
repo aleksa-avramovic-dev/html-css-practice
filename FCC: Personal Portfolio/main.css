@@ -25,9 +25,13 @@ nav li a {
     text-decoration: none;
 }
 #welcome-section {
-    margin-top: 45px;
-    height: calc(100vh - 45px);
+    margin-top: 0;
+    height: 100vh;
     text-align: center;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgIBwcHCAgHBwcHBwoHBwcHBw8ICQcKIBEWIhURExMYICggGBolGx8TITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDysZFRkrNy0rNy03KystLSsrNystKy0tKy03LS0rKysrNysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBKwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABsQAQEBAQADAQAAAAAAAAAAAAABEQIhMbFB/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECBAUD/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDygB3PXAAAAAAAAAAAAalVhqUFAAAAAAZ66zxPfw66zxPfxzAAAAAAAAABLQLUBlkAB1AaaAAAAAAAAAAAAAAalVhqUFAAZ66zxPfw66zxPfxzAAAAAAAAABm0C0BlkAAAB1AaaAAAAAAAAAAAAAAAAal1Ous8T38Y66zxElAAAAAAAAABLSmpaAyyAAAAAA6gNNAAAAAAAAAAAAAADPXWeIdX8ntgBUBGhFKoAKAAAlqBagIyAAAAAAAA6gNKAAAAAAAAAAAAM9dfh11niMAKCIAAACqIsFVFZtN0LUBmsgBQAKAAAAAAOmmsjataayA1prIDWmsgNaayA1prIDWpektZN1BUGRRAFEUqgCUAVKqVGksTdNxNASgaBQAKBoFIaAUACo0A+wAAAAAAAAFpaybqADIAqKiglIAqVqIKpVhIAlWAKlWMWDSWJqRAVKRBUKQAKQAKkQUWkUB0MAAAAAACWraym6gCoIoIoCsrEUErWYKLIlazCChViCjNWIKFWIKJSM2I2mMkZFCpEFCkQUKRBRakQB1viAAAAFpaybqAqMigM1oUEqwBWa1EUaxGsxJFFStZiCmJWoBgzVgKJViCiUjIolIzg0iVIguGFIgotSIKi0jIDucoAAlq2sm6gCsCKCNCgyuYKCVvMBVkZrWYSKCVvMFBmtQFGasQUSrEFwSrEFEqxBRKREaSpSIKFSIKhUiCi1I5gPScQWoGmoAygoMtCgi4KDOtYKDOt4sigy3iijOtYLiDOtYoDLS4gMqYYCNQAQAEUQBIAICKKiAKkf/Z);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: black;
     color: white;
 }
@@ -35,7 +39,8 @@ h1 {
     padding-top: 7em;
 }
 #projects {
-    background-color: blue;
+    background-color: rgba(40, 40, 40, .8);
+    color: rgba(255, 255, 255, 0.7);
 }
 #projects h4 {
     text-align: center;
@@ -64,20 +69,46 @@ h1 {
 }
 
 .project a{
-    color: black;
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
 }
 
 #contact {
-    background: black;
+    background-image: url(https://wallpaperaccess.com/full/2587485.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(40, 40, 40, .8);
     text-align: center;
     color: white;
-    height: calc(100vh - 45px);
+    height: calc(80vh - 45px);
 }
 #contact ul {
+    padding-left: 0;
     list-style: none;
     margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#contact li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
 }
 h2 {
     margin: 0;
+    padding-top: 8em;
+}
+
+@media (max-width: 375px) {
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+    .project{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
